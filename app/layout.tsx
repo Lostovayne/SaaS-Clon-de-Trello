@@ -1,5 +1,4 @@
 import { siteConfig } from "@/config/site";
-import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -17,7 +16,6 @@ export const metadata: Metadata = {
             url: "/logo.svg",
             href: "/logo.svg",
             type: "image/svg+xml",
-            sizes: "192x192",
         },
     ],
 };

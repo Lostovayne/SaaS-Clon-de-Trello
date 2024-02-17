@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Clon Trello
 
-## Getting Started
+Clon Trello es una aplicación inspirada en Trello, diseñada para la gestión de tareas y proyectos en un formato de tablero kanban.
 
-First, run the development server:
+## Características
+
+-   Crear, editar y eliminar tarjetas y listas.
+-   Organizar tareas y proyectos con un sistema de arrastrar y soltar.
+-   Interfaz intuitiva y amigable.
+
+## Tecnologías Utilizadas
+
+Esta aplicación está construida con las siguientes tecnologías:
+
+-   Next.js
+-   React
+-   Tailwind CSS
+-   Clerk for authentication (with Next.js)
+-   Radix UI
+-   Lucide React
+-   clsx
+-   Tailwind Merge
+-   Tailwindcss Animate
+
+## Requisitos Previos
+
+Para ejecutar este proyecto, necesitarás tener Node.js y npm instalados en tu máquina.
+
+## Instalación
+
+Para instalar las dependencias del proyecto, ejecuta el siguiente comando en tu terminal:
+
+```bash
+npm install
+```
+
+## Uso
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Variables de entorno
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Para configurar las variables de entorno, puedes utilizar el archivo .env.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Imagenes del proyecto
 
-## Learn More
+## Contribuir
 
-To learn more about Next.js, take a look at the following resources:
+Si quieres contribuir a este proyecto, por favor considera lo siguiente:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+-   Haz un fork del repositorio.
+-   Crea una rama para tu característica o corrección.
+-   Haz commit de tus cambios.
+-   Haz push a tu rama.
+-   Abre un pull request.
