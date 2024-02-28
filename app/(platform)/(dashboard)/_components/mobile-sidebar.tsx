@@ -11,6 +11,7 @@ import { Sidebar } from "./sidebar";
 const MobileSidebar = () => {
   const pathname = usePathname();
   const [isMounted, setIsMounted] = useState(false);
+
   // Zustand states
   const onOpen = useMobileSidebar((state) => state.onOpen);
   const onClose = useMobileSidebar((state) => state.onClose);
