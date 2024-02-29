@@ -7,8 +7,8 @@ import { usePathname, useRouter } from "next/navigation";
 
 // icons
 import { Button } from "@/components/ui/button";
-import { Activity, CreditCard, Layout, Settings } from "lucide-react";
 import { Skeleton } from "@/components/ui/skeleton";
+import { Activity, CreditCard, Layout, Settings } from "lucide-react";
 
 export type Organization = {
   id: string;
@@ -32,22 +32,22 @@ export const NavItem = ({ isExpanded, isActive, organization, onExpand }: NavIte
     {
       label: "Boards",
       icon: <Layout className="w-4 h-4 mr-2" />,
-      href: `/organizations/${organization.id}`,
+      href: `/organization/${organization.id}`,
     },
     {
       label: "Activity",
       icon: <Activity className="w-4 h-4 mr-2" />,
-      href: `/organizations/${organization.id}/activity`,
+      href: `/organization/${organization.id}/activity`,
     },
     {
       label: "Settings",
       icon: <Settings className="w-4 h-4 mr-2" />,
-      href: `/organizations/${organization.id}/settings`,
+      href: `/organization/${organization.id}/settings`,
     },
     {
       label: "Billing",
       icon: <CreditCard className="w-4 h-4 mr-2" />,
-      href: `/organizations/${organization.id}/billing`,
+      href: `/organization/${organization.id}/billing`,
     },
   ];
 
