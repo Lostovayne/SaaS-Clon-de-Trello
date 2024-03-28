@@ -9,13 +9,12 @@ generator client {
 }
 
 datasource db {
-  provider = "mysql"
-  url      = env("DATABASE_URL")
+  provider     = "mysql"
+  url          = env("DATABASE_URL")
+  relationMode = "prisma"
 }
 
-
-model Task {
-  id        Int    @id
-  title     String
-  completed Boolean
+model Board {
+  id    String @id @default(uuid())
+  title String
 }
