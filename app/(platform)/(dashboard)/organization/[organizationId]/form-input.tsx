@@ -1,19 +1,25 @@
+"use client";
+
+import { Input } from "@/components/ui/input";
+import { useFormStatus } from "react-dom";
+
 interface FormInputProps {
   errors?: {
     title?: string[];
-  }
+  };
 }
 
 export const FormInput = ({ errors }: FormInputProps): JSX.Element => {
+  const { pending } = useFormStatus();
+
   return (
     <div>
-      <input
+      <Input
         type="text"
         id="title"
         name="title"
         required
         placeholder="Enter a board title"
-        className="p-1 border border-black"
       />
       {errors?.title ? (
         <div>

@@ -85,6 +85,9 @@ devDependencies:
   tailwindcss:
     specifier: ^3.3.0
     version: 3.4.1
+  turso:
+    specifier: ^0.1.0
+    version: 0.1.0
   typescript:
     specifier: ^5
     version: 5.3.3
@@ -3498,6 +3501,10 @@ packages:
   /tslib@2.6.2:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
     dev: false
+
+  /turso@0.1.0:
+    resolution: {integrity: sha512-gM6zaKIQA35QoujeknL1oNFjgduei9sgVRrKc9XRSG1P+VAUAQzfKJGlLQqcnsHFh+a1kqRV16gI/mCvyEJS1Q==}
+    dev: true
 
   /type-check@0.4.0:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
